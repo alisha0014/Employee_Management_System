@@ -26,7 +26,7 @@ This project is built as part of a Python-Django tutorial for learning purposes.
 ---
 
 ## Project Structure
-OFFICE_EMP_MANAGEMENT_SYSTEM/
+EMPLOYEE_MANAGEMENT_SYSTEM/
 ├── db.sqlite3
 ├── manage.py
 ├── emp_app/ # Main Django application
