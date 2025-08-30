@@ -26,4 +26,29 @@ This project is built as part of a Python-Django tutorial for learning purposes.
 ---
 
 ## Project Structure
-
+OFFICE_EMP_MANAGEMENT_SYSTEM/
+├── db.sqlite3
+├── manage.py
+├── emp_app/ # Main Django application
+│ ├── init.py
+│ ├── admin.py # Admin panel configuration
+│ ├── apps.py
+│ ├── migrations/ # Database migration files
+│ │ ├── init.py
+│ │ └── 0001_initial.py
+│ ├── models.py # Database models (Employee, Department, Role)
+│ ├── tests.py
+│ ├── urls.py # App-specific routes
+│ ├── views.py # Application logic
+│ ├── templates/ # HTML templates
+│ │ ├── add_emp.html
+│ │ ├── filter_emp.html
+│ │ ├── index.html
+│ │ ├── remove_emp.html
+│ │ └── view_all_emp.html
+│ └── pycache/ # Compiled Python files
+└── office_emp_proj/ # Django project configuration
+├── init.py
+├── settings.py
+├── urls.py
+└── wsgi.py
