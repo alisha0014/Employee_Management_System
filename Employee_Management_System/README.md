@@ -19,9 +19,9 @@ This project is built as part of a Python-Django tutorial for learning purposes.
 ## Tech Stack
 
 - **Backend:** Python 3, Django
-- **Database:** SQLite (default) — can be swapped with PostgreSQL/MySQL
-- **Frontend:** HTML, CSS (Django Templates)
-- **Environment:** Virtualenv / venv (recommended)
+- **Database:** SQLite 
+- **Frontend:** HTML, CSS, Bootstrap, JavaScript
+- **Environment:** Virtualenv 
 
 ---
 
